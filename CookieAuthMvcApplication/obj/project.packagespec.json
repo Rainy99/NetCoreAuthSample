@@ -1,0 +1,43 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/devzhou/RiderProjects/NetCoreAuth/CookieAuthMvcApplication/CookieAuthMvcApplication.csproj",
+    "projectName": "CookieAuthMvcApplication",
+    "projectPath": "/Users/devzhou/RiderProjects/NetCoreAuth/CookieAuthMvcApplication/CookieAuthMvcApplication.csproj",
+    "outputPath": "/Users/devzhou/RiderProjects/NetCoreAuth/CookieAuthMvcApplication/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "2.0"
+        },
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "2.0.3"
+        }
+      }
+    }
+  },
+  "runtimes": {
+    "win": {
+      "#import": []
+    },
+    "win-x64": {
+      "#import": []
+    },
+    "win-x86": {
+      "#import": []
+    }
+  }
+}
