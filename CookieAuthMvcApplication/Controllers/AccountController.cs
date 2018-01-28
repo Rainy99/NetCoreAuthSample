@@ -9,12 +9,24 @@ namespace CookieAuthMvcApplication.Controllers
 {
     public class AccountController : Controller
     {
-        // GET
+
+        [HttpGet]
         public IActionResult Login()
         {
+            return View();
+        }
+        
+        [HttpPost]
+        public IActionResult Login(string name,string password)
+        {
+            if (name != "test" && password != "123456")
+            {
+                return NotFound("login fail");
+            }
+            
             var claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name,"devzhou"),
+                new Claim(ClaimTypes.Name,"test"),
                 new Claim(ClaimTypes.Role,"admin")
             };
             

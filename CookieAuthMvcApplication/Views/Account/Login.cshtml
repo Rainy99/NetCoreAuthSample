@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<div style="width: 20%">
+    <form method="post" action="/Account/Login">
+        <label for="name">name:</label>
+        <input name="name" id="name" class="form-control"/>
+        <label for="password">password:</label>
+        <input name="password" id="password" class="form-control"/>
+        <input type="submit" value="login" class="btn btn-default"/>
+    </form>
+</div>
